@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/jesse/project",
+    "command": "avr-gcc -mmcu=atmega328p -Os main.c",
+    "file": "main.c"
+  }
+]
