@@ -5,7 +5,7 @@ int main() {
             (1 << CS10); // This sets the clocks prescaler to 1024. We divide
                          // our chip's processing speed (16mhz) by 1024 to make
                          // time more manageable. So 16.000.000 / 1024 = 15.625
-                         // cycles per second (approximately)
+                         // timer ticks per second
 
   TCNT1 = 0; // This holds our ticks. Make sure it starts at 0.
   const int SECOND = 15625;

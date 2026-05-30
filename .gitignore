@@ -1,0 +1,8 @@
+# AVR build artifacts
+**/*.elf
+**/*.hex
+
+# Optional extras
+**/*.o
+**/*.d
+**/*.map
